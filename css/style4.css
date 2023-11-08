@@ -1,0 +1,152 @@
+.container {
+    width: 100%;
+    margin: auto;
+}
+
+html {
+    font-family: Verdana;
+}
+
+body {
+    margin: 0;
+}
+
+nav {
+    background-color: burlywood;
+}
+
+ul {
+    display: flex;
+    list-style-type: none;
+    justify-content: space-evenly;
+    background-color: black;
+    padding: 0;
+    margin: 0;
+}
+
+li {
+    flex: 1;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+li a {
+    background-color: black;
+    color: white;
+    display: block;
+    text-align: center;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: dimgray;
+}
+
+nav img {
+    width: 7rem;
+    height: auto;
+}
+
+main {
+    background-color: darkorange;
+    padding: 1rem;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+section {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+section h2 {
+    width: 100%;
+}
+
+article {
+    width: 100%;
+    padding: 1rem;
+    box-sizing: border-box;
+}
+
+.dogs-section {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+
+.dog-box {
+    background-color: #ccc;
+    padding: 1rem;
+    text-align: center;
+    margin: 1rem;
+    width: calc(33.33% - 2rem);
+    box-sizing: border-box;
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+figcaption {
+    padding: 1rem;
+}
+
+aside {
+    background-color: gainsboro;
+    width: 100%;
+}
+
+footer {
+    background-color: teal;
+    padding: 1rem;
+    text-align: center;
+}
+
+form {
+    background-color: floralwhite;
+    width: 80%;
+    margin: auto;
+    padding: 2rem;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+input {
+    display: block;
+    width: 100%;
+    padding: 1rem;
+}
+
+@media screen and (min-width: 769px) {
+    .container {
+        width: 80%;
+    }
+
+    section {
+        width: 80%;
+    }
+
+    aside {
+        width: 20%;
+    }
+
+    article {
+        width: 50%;
+    }
+
+    li {
+        flex: 1;
+        text-align: center;
+    }
+
+    form {
+        width: 40%;
+    }
+}
